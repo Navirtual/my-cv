@@ -1,0 +1,28 @@
+.base {
+  position: absolute;
+  bottom: 30px;
+}
+
+div.bloque {
+  margin: 40px 0px;
+}
+
+.ref {
+  &-nombre {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  &-empresa {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  &-telefono {
+    display: block;
+    font-weight: 400;
+  }
+}

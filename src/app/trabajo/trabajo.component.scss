@@ -1,0 +1,38 @@
+.job {
+  font-weight: 600;
+
+  &-title {
+    font-size: 16px;
+  }
+
+  &-date {
+    font-size: 16px;
+    text-align: right;
+  }
+
+  &-company {
+    color: #757575;
+  }
+
+  &-description {
+    font-weight: 400;
+    margin-top: 14px;
+    text-align: justify;
+  }
+
+  &-others {
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 14px;
+    color: #253846;
+
+  }
+
+  &-project {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #757575;
+  }
+}

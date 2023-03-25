@@ -1,0 +1,117 @@
+{
+  "general": {
+    "nombre": "Iván Patricio Araya Rivera",
+    "nombre_visible": "Ivan Araya Rivera",
+    "fecha_nacimiento": 1990,
+    "telefono": 987440984,
+    "direccion": "Pje. Los Coligues #1431",
+    "comuna": "Villa Alemana",
+    "pais": "Chile",
+    "email": "ivan.arayari@gmail.com",
+    "linkedin": "in/navirtual/"
+  },
+  "extracto": "Aporto soluciones tecnológicas basadas en desarrollo de software y liderazgo de equipos, amplia experiencia con la implementación de soluciones Cloud utilizando metodologías ágiles. Formé parte principal del equipo del caso de éxito AWS 2018, y miembro del equipo de desarrollo de las soluciones Cloud históricas de los retiros de fondo de pensiones de AFPs y aseguradoras chilenas.",
+  "estudios": [
+    {
+      "titulo": "Técnico Universitario en Informática",
+      "institucion": "Universidad Técnica Federico Santa María"
+    }
+  ],
+  "laboral": [
+    {
+      "cargo": "Desarrollador",
+      "empresa": "Fintual Administradora General de Fondos S.A.",
+      "empresa_desc": "Administradora de fondos, regulada por la CMF y respaldada por Sequoaia Capital y Y-Combinator.",
+      "extracto": "Desarrollos en la plataforma web y App de Fintual, parte de Advisory Squad, velando por mantener los clientes en la plataforma, gestionando requerimientos, mejorando la experiencia y dando soporte.",
+      "fecha_inicio": "Septiembre 2022",
+      "fecha_fin": "Marzo 2023",
+      "proyectos": [
+        {
+          "titulo": "Moving balance",
+          "detalle": "Implementación de los números en movimiento en el apartado Inbox dentro de la plataforma (CL y MX).",
+          "otros": "Ruby on Rails, React, React Native, Git"
+        }
+      ]
+    },
+    {
+      "cargo": "Ingeniero de software",
+      "empresa": "Tinet S.A.",
+      "empresa_desc": "Empresa de servicios de tecnología y transformación digital, Software Factory con más de 15 años en la industria.",
+      "fecha_inicio": "Octubre 2016",
+      "fecha_fin": "Septiembre 2022",
+      "proyectos": [
+        {
+          "titulo": "Retiro 10% AFP",
+          "detalle": "Plataforma de retiro de fondos de AFP, el primer retiro 10% para una de las AFP más grande Chile, utilizando tecnologías escalables en Cloud las cuáles permiten una alta demanda de usuarios y soportando así entregar el retiro a todos sus clientes sin presentar indisponibilidad de la plataforma.",
+          "otros": "Angular, AWS (S3, Lambda, DynamoDB), Docker, Git"
+        },
+        {
+          "titulo": "Transformación digital importante empresa de remates",
+          "detalle": "Plataforma de remate 100% Cloud (caso de éxito de AWS Cloud Experience 2018), la cuál fue vital para el desarrollo de la empresa durante la pandemia, logrando una mayor competitividad en el mercado y aumentando su facturación.",
+          "otros": "Angular, AWS (S3, SQS, Lambda, DynamoDB), Socket.io, Git, Serverless, NodeJS"
+        }
+      ],
+      "extracto": "Desarrollo de aplicaciones web para distintos clientes, utilizando frameworks como Angular y React. Manejo básico en infraestructuras Cloud (AWS y Azure). Realizando actividades como Tech Lead, apoyando al equipo en gestión de actividades, buscando constantemente el crecimiento del equipo mediante feedback continuo, manteniendo las comunicaciones fluídas con las áreas involucradas."
+    },
+    {
+      "cargo": "Ingeniero de software",
+      "empresa": "ISI - Informática y Soluciones Intregrales",
+      "empresa_desc": "PYME de soluciones tecnológicas, Software Factory.",
+      "fecha_inicio": "Mayo 2014",
+      "fecha_fin": "Septiembre 2016",
+      "otros": "PHP, HTML, VBA, MySQL",
+      "extracto": "Desarrollo de aplicaciones de gestión de procesos internos en temas logísticos y documentales para distintos proveedores, participación activa en análisis de requerimientos y diseño de sistemas informáticos, brindando también soporte a los mismos junto con capacitaciones a los operarios.",
+      "actividades": [
+        "Análisis de requerimientos y especificaciones técnicas.",
+        "Diseño lógico y físico de programación",
+        "Modelado de base de datos, Actualización, Administración y Mantención de sistemas.",
+        "Soporte a usuarios vía remoto y presencial, Capacitaciones."
+      ]
+    },
+    {
+      "cargo": "Analista y Desarrollador de prototipos",
+      "empresa": "Ultramar Agencia Maritima Ltda.",
+      "empresa_desc": "Empresa de servicios logísticos e integrales de comercio exterior.",
+      "fecha_inicio": "Mayo 2012",
+      "fecha_fin": "Febrero 2014",
+      "otros": "Java SE, PHP, HTML, VBA",
+      "extracto": "Desarrollo de prototipos para la mejora en temas de gestión interna en procesos logísticos y documentales."
+    }
+  ],
+  "idiomas": {},
+  "referencias": [],
+  "intereses": [
+    "Arduino & Gadgets",
+    "Impresión 3D",
+    "Domótica"
+  ],
+  "habilidades": [
+    {
+      "nombre": "Liderazgo",
+      "detalle": "...en equipos de 6 personas."
+    },
+    {
+      "nombre": "Trabajo en Equipo",
+      "detalle": "...multicultural y multidisciplario."
+    },
+    {
+      "nombre": "Enfocado en Objetivos",
+      "detalle": "...aplicando criterios KISS y SMART."
+    },
+    {
+      "nombre": "Autogestión",
+      "detalle": ""
+    }
+  ],
+  "software": [
+    "HTML5/CSS3",
+    "React/React Native",
+    "Javascript/Typescript",
+    "Angular",
+    "Git",
+    "AWS",
+    "Azure",
+    "Docker",
+    "JIRA"
+  ]
+}

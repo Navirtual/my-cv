@@ -1,0 +1,46 @@
+<div class="job mb-4" *ngFor="let trabajo of trabajos">
+  <div class="row">
+    <div class="col-6">
+      <div class="job-title">
+        {{trabajo.cargo}}
+      </div>
+    </div>
+    <div class="col-6 job-date">
+      {{trabajo.fecha_inicio}} - {{trabajo.fecha_fin | fechaActualidad}}
+    </div>
+  </div>
+  <div class="job-company">
+    {{trabajo.empresa}} <br />
+    <small>{{trabajo.empresa_desc}}</small>
+  </div>
+  <div class="job-description" *ngIf="!trabajo.extracto">
+    <ul>
+      <li *ngFor="let actividad of trabajo.actividades">
+        {{actividad}}
+      </li>
+    </ul>
+  </div>
+
+  <div class="job-description" *ngIf="trabajo.extracto">
+    {{trabajo.extracto}}
+  </div>
+
+  <div class="job-project" *ngIf="trabajo.proyectos">
+    <div *ngFor="let proyecto of trabajo.proyectos" class="ml-2 mb-2">
+      <i class="fa fa-square"></i>&nbsp;
+      <strong>{{proyecto.titulo}}</strong>&nbsp;
+      <span>{{proyecto.detalle}}</span>
+      <span *ngIf="proyecto.otros" class="color-blue">
+        <div class="job-others"><i class="fa fa-terminal"></i>&nbsp;{{proyecto.otros}}</div>
+      </span>
+    </div>
+  </div>
+
+  <div class="job-others" *ngIf="trabajo.otros">
+    <i class="fa fa-terminal"></i>&nbsp;
+    {{trabajo.otros}}
+  </div>
+
+  <hr>
+
+</div>

@@ -1,0 +1,29 @@
+<div class="container base">
+
+  <div class="spacer"></div>
+  <span class="titulo mb-4">
+    Referencias
+  </span>
+
+  <div class="bloque" *ngFor="let referencia of referencias">
+
+    <span class="ref-nombre">
+      {{referencia.nombre}}
+    </span>
+
+    <span class="ref-empresa">
+      {{referencia.empresa}}
+    </span>
+
+    <span class="ref-telefono">
+      <i class="fa-solid fa-phone"></i>
+      {{referencia.telefono}}
+    </span>
+
+    <span class="ref-email">
+      <i class="fa-solid fa-envelope"></i>
+      {{referencia.email}}
+    </span>
+  </div>
+
+</div>

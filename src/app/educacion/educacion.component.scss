@@ -1,0 +1,19 @@
+
+/** Degree */
+.degree {
+
+  font-weight: 600;
+
+  &-title {
+    font-size: 16px;
+  }
+
+  &-date {
+    font-size: 16px;
+    text-align: right;
+  }
+
+  &-university {
+    color: #757575;
+  }
+}

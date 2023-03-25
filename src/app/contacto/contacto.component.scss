@@ -1,0 +1,18 @@
+.container {
+  margin: 10px 0px;
+}
+
+.bloque {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.bloque i {
+  // flex-basis: 10%;
+  position: relative;
+  top: 10px;
+}
+
+.bloque .info {
+  padding-left: 10px;
+}

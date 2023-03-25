@@ -1,0 +1,56 @@
+<div class="row" *ngIf="user">
+
+  <div class="col-3" style="background-color: #253846;">
+
+    <!-- Foto -->
+    <div class="text-center">
+      <img src="assets/{{user.foto}}" alt="" class="foto mt-4">
+    </div>
+
+    <!-- Información de Contacto -->
+    <app-contacto [datos]="user.general" title={{title_contact}}></app-contacto>
+
+    <!-- Información de Habilidades -->
+    <app-bloque-skills *ngIf="user.habilidades.length > 0" [datos]="user.habilidades" titulo={{title_skills}}
+      class="m-4">
+    </app-bloque-skills>
+
+    <!-- Información de Software -->
+    <app-bloque-sidebar [datos]="user.software" titulo={{title_software}} class="m-4"></app-bloque-sidebar>
+
+    <app-bloque-sidebar [datos]="user.intereses" titulo={{title_interest}} class="m-4"></app-bloque-sidebar>
+
+    <!-- Información de referencias -->
+    <app-referencias *ngIf="user.referencias.length > 0" [referencias]="user.referencias"></app-referencias>
+
+    <div class="mt-2">&nbsp;</div>
+  </div>
+
+  <div class="col-9 pr-4">
+
+    <!-- Nombre -->
+    <div class="text-center block-name">
+      <span class="name">
+        {{user.general.nombre_visible | uppercase}}
+      </span>
+      <hr>
+      <span class="title">
+        {{user.laboral[0].cargo}}
+      </span>
+    </div>
+
+    <!-- Extracto -->
+    <app-title-section titulo={{title_profile}}></app-title-section>
+    <app-extracto [texto]="user.extracto"></app-extracto>
+
+    <!-- Experiencia Laboral -->
+    <app-title-section titulo={{title_workExp}}></app-title-section>
+    <app-trabajo [trabajos]="user.laboral"></app-trabajo>
+
+    <!-- Educación -->
+    <app-title-section titulo={{title_education}}></app-title-section>
+    <app-educacion [estudios]="user.estudios"></app-educacion>
+
+    <div class="spacer mb-5"></div>
+    <div class="spacer mb-5"></div>
+  </div>

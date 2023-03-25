@@ -1,0 +1,12 @@
+<div class="container base">
+
+  <span class="titulo mb-4">
+    {{titulo}}
+  </span>
+
+  <div class="bloque" *ngFor="let item of datos">
+    <span class="info"><i class="fa-solid fa-angle-right"></i>&nbsp;{{item.nombre}}</span> <br />
+    <small class="detalle">&nbsp;{{item.detalle}}</small>
+  </div>
+
+</div>

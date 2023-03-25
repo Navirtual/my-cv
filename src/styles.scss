@@ -1,0 +1,39 @@
+body {
+  // margin: 20px 0px 30px 0px;
+  // margin-top: 20px;
+  font-size: 14px;
+  color: #253846;
+}
+
+/** Left side */
+.base {
+  color: #fff;
+}
+
+.titulo {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.block-name {
+  background-color: #f4f4f4;
+  color: #5d5d5d;
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.block-name hr {
+  width: 50%;
+  background-color: #5d5d5d;
+}
+
+.block-name .name {
+  font-weight: 700;
+  font-size: 30px;
+}

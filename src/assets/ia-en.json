@@ -1,0 +1,75 @@
+{
+  "general": {
+    "nombre": "Iván Patricio Araya Rivera",
+    "nombre_visible": "Ivan Araya Rivera",
+    "fecha_nacimiento": 1990,
+    "telefono": 987440984,
+    "direccion": "St. Los Coligues #1431",
+    "comuna": "Villa Alemana",
+    "pais": "Chile",
+    "email": "ivan.arayari@gmail.com",
+    "linkedin": "in/navirtual/"
+  },
+  "extracto": "I provide technological solutions based on software development and team leadership, extensive experience with the implementation of Cloud solutions using agile methodologies. I was a main part of the AWS 2018 success story team, and a member of the development team of the historical Cloud solutions for pension fund withdrawals of AFPs and Chilean insurers, I currently work as Tech Lead in a digital transformation project that without doubt it will be the new success of the industry.",
+  "estudios": [
+    {
+      "titulo": "Técnico Universitario en Informática",
+      "institucion": "Universidad Técnica Federico Santa María"
+    }
+  ],
+  "laboral": [
+    {
+      "cargo": "Software Engineer",
+      "empresa": "Tinet S.A.",
+      "fecha_inicio": "October 2016",
+      "fecha_fin": "",
+      "otros": "JIRA Service Desk, Angular, NodeJS, Serverless, AWS (S3, SQS, Lambda), Socket.io, Git, Javascript/Typescript, GCP, Azure, Dockers",
+      "extracto": "Development of web applications for different clients, using frameworks such as Angular and React. Basic management in Cloud infrastructures (AWS and Azure). Carrying out activities as Tech Lead, supporting the team in managing activities, constantly seeking team growth through continuous feedback, maintaining fluid communications with the areas involved."
+    },
+    {
+      "cargo": "Software Engineer",
+      "empresa": "ISI - Informática y Soluciones Intregrales",
+      "fecha_inicio": "May 2014",
+      "fecha_fin": "September 2016",
+      "otros": "PHP, HTML, MySQL, VBA",
+      "extracto": "Development of internal process management applications in logistics and documentation issues for different supplier, active participation in analysis of requierements and design of computer systems, also providing support to them along with training for operators.",
+      "actividades": [
+        "Análisis de requerimientos y especificaciones técnicas.",
+        "Diseño lógico y físico de programación",
+        "Modelado de base de datos, Actualización, Administración y Mantención de sistemas.",
+        "Soporte a usuarios vía remoto y presencial, Capacitaciones."
+      ]
+    },
+    {
+      "cargo": "Analyst and prototype developer",
+      "empresa": "Ultramar Agencia Maritima Ltda.",
+      "fecha_inicio": "May 2012",
+      "fecha_fin": "February 2014",
+      "otros": "Java SE, PHP, HTML, VBA",
+      "extracto": "Prototype development (JAVA SE, PHP, HTML, VBA) to improve internal management in logistics and documentary processes."
+    }
+  ],
+  "idiomas": {},
+  "referencias": [],
+  "intereses": [
+    "Arduino & Gadgets",
+    "3D print",
+    "Domotics",
+    "Travels"
+  ],
+  "habilidades": [
+    "Leadership",
+    "Teamwork",
+    "Focused on goals",
+    "Time management"
+  ],
+  "software": [
+    "HTML5/CSS3",
+    "Javascript/Typescript",
+    "Angular",
+    "Git",
+    "AWS",
+    "Azure",
+    "Docker"
+  ]
+}
